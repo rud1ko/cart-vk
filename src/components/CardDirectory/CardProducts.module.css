@@ -1,0 +1,14 @@
+.card{
+    padding: 20px;
+    background-color: aqua;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--vkui--size_border_radius_paper--regular);
+}
+
+.productImage{
+    display: block;
+    width: 100px;
+    height: 100px;
+}

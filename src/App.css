@@ -4,6 +4,9 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   color: white;
+  font-family: Roboto sans-serif;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .listProducts{
