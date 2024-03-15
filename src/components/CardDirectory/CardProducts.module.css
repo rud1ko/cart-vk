@@ -1,14 +1,31 @@
 .card{
     padding: 20px;
-    background-color: aqua;
-    color: red;
     display: flex;
-    flex-direction: column;
+    gap: 20px;
     border-radius: var(--vkui--size_border_radius_paper--regular);
 }
 
 .productImage{
     display: block;
-    width: 100px;
-    height: 100px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.buttonBlock{
+    display: flex;
+    gap: 10px;
+}
+
+.contentBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--vkui--gradient_black);
+}
+
+.rationImg{
+    position: static;
+    display: block !important;
+    max-width: 400px;
+    max-height: 400px;
 }

@@ -1,10 +1,8 @@
 .App {
-  background-color: #282c34;
   min-height: 100vh;
-  display: grid;
+  display: grid !important;
   grid-template-columns: 3fr 1fr;
-  color: white;
-  font-family: Roboto sans-serif;
+  color: var(--vkui--gradient_black);
   font-weight: 700;
   font-size: 20px;
 }
@@ -16,4 +14,25 @@
 
 .sumProducts{
   padding: 10px;
+}
+
+.sumColumn{
+
+}
+
+.productsListBlock{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sumBlock{
+  position: fixed;
+}
+
+.loadBlock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }

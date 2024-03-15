@@ -1,6 +1,5 @@
-import {DetailedHTMLProps, HTMLAttributes} from "react";
-
-export interface CardProductsProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>{
+export interface CardProductsProps{
+    id: number
     image: string,
     title: string,
     description: string,
