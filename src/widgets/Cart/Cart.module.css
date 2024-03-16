@@ -1,0 +1,14 @@
+.fixedLayout{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: scroll;
+    padding-left: 0 !important;
+}
+
+.cartList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -6,33 +6,3 @@
   font-weight: 700;
   font-size: 20px;
 }
-
-.listProducts{
-  border-right: 1px solid white;
-  padding: 10px;
-}
-
-.sumProducts{
-  padding: 10px;
-}
-
-.sumColumn{
-
-}
-
-.productsListBlock{
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.sumBlock{
-  position: fixed;
-}
-
-.loadBlock{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}

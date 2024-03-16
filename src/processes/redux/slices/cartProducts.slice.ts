@@ -1,5 +1,5 @@
 import {createSlice, PayloadAction} from "@reduxjs/toolkit";
-import {CardProductsProps} from "../../components/CardDirectory/CardProducts.props";
+import {CardProductsProps} from "../../../entities/CardDirectory/CardProducts.props";
 
 const initialState: CardProductsProps[] = []
 

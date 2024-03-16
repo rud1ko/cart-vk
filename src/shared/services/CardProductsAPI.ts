@@ -1,5 +1,5 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
-import {CardProductsProps} from "../../components/CardDirectory/CardProducts.props";
+import {CardProductsProps} from "../../entities/CardDirectory/CardProducts.props";
 
 export const CardProductsAPI = createApi({
     reducerPath: "CardproductsAPI",

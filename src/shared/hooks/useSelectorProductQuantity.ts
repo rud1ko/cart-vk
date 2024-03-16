@@ -1,6 +1,6 @@
 import {useSelector} from "react-redux";
-import {RootState} from "../redux/store";
-import {CardProductsProps} from "../components/CardDirectory/CardProducts.props";
+import {RootState} from "../../processes/redux/store";
+import {CardProductsProps} from "../../entities/CardDirectory/CardProducts.props";
 
 
 export const useSelectorProductQuantity = (product: CardProductsProps) => {

@@ -1,16 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit";
-import {ReactElement} from "react";
-import {Alert} from "@vkontakte/vkui";
-import {cartProductsSlice} from "./cartProducts.slice";
+import {AlertPayload} from "../../../shared/interfaces/AlertPayload.props";
+import {AlertProductState} from "../../../shared/interfaces/AlertProductState";
 
-interface AlertPayload {
-    onClose: () => void;
-    header: string;
-}
-
-interface AlertProductState {
-    alert: AlertPayload | null;
-}
 
 const initialState: AlertProductState = {
     alert: null,

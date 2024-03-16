@@ -1,5 +1,5 @@
 import {configureStore} from "@reduxjs/toolkit";
-import {CardProductsAPI} from "./services/CardProductsAPI";
+import {CardProductsAPI} from "../../shared/services/CardProductsAPI";
 import {reducer as alertReducer} from "./slices/alertProduct.slice"
 import {reducer as cartReducer} from "./slices/cartProducts.slice"
 

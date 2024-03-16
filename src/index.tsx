@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReduxProvider from "./redux/ReduxProvider/ReduxProvider";
+import ReduxProvider from "./app/ReduxProvider/ReduxProvider";
 import {AdaptivityProvider, ConfigProvider} from "@vkontakte/vkui";
 
 const root = ReactDOM.createRoot(

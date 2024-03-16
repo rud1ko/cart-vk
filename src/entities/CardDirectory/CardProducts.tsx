@@ -1,11 +1,11 @@
-import React, {JSX, ReactElement, useEffect} from 'react';
+import React, {JSX} from 'react';
 import styles from './CardProducts.module.css'
 import cn from 'classnames'
-import {Alert, AspectRatio, Button, Card, Div, Headline, Image, Paragraph, Text, Title} from "@vkontakte/vkui";
+import {Button, Card, Paragraph, Text, Title} from "@vkontakte/vkui";
 import {Icon16ShoppingCartOutline} from '@vkontakte/icons'
-import {CardProductsItemProps} from "./CardProductsItem.props";
-import {useActions} from "../../hooks/useActions";
-import {useSelectorProductQuantity} from "../../hooks/useSelectorProductQuantity";
+import {CardProductsItemProps} from "../../shared/interfaces/CardProductsItem.props";
+import {useActions} from "../../shared/hooks/useActions";
+import {useSelectorProductQuantity} from "../../shared/hooks/useSelectorProductQuantity";
 
 
 const CardProducts = ({product}: CardProductsItemProps): JSX.Element => {
